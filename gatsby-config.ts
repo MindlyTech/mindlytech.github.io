@@ -2,7 +2,7 @@ import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `Mindly | Software Development Company`,
+    title: `Mindly | Software Development Services`,
     siteUrl: `https://www.mindly.dev`,
     description:
       "Full-stack software development. Business Analysis, Software Development, DevOps and IT Audit.",
