@@ -54,7 +54,7 @@ const IndexPage: React.FC<PageProps> = () => {
                 Contact Us
               </div>
               <div className="text-xl font-semibold">
-                <a href="mailto:janno@mindly.ee">Email: inquiry@mindly.dev</a>
+                <a href="mailto:contact@mindly.ee">Email: contact@mindly.dev</a>
               </div>
             </div>
           </div>
