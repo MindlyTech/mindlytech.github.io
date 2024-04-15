@@ -2,8 +2,10 @@ import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `mindly.dev`,
+    title: `Mindly | Software Development Company`,
     siteUrl: `https://www.mindly.dev`,
+    description:
+      "Full-stack software development. Business Analysis, Software Development, DevOps and IT Audit.",
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin
@@ -11,6 +13,14 @@ const config: GatsbyConfig = {
   graphqlTypegen: true,
   plugins: [
     "gatsby-plugin-postcss",
+    {
+      resolve: "gatsby-plugin-google-gtag",
+      options: {
+        trackingIds: [
+          "GTM-5D3VWP3", // Google Analytics / GA
+        ],
+      },
+    },
     //    "gatsby-plugin-google-gtag",
     "gatsby-plugin-image",
     "gatsby-plugin-sitemap",
@@ -29,6 +39,15 @@ const config: GatsbyConfig = {
         path: "./src/images/",
       },
       __key: "images",
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Inter\:400,500,600,700`, // weights you need
+        ],
+        display: "swap",
+      },
     },
   ],
 };
