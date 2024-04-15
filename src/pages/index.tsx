@@ -31,14 +31,14 @@ const IndexPage: React.FC<PageProps> = () => {
                 <div className="flex row">
                   <span>
                     <div className="text-primary mr-2 font-bold">
-                      Full-stack software development.
+                      Software Development Services.
                     </div>
                   </span>
                 </div>
               </div>
               <div className="text-xl ">
-                More than 20 years of experience building software for fin-tech
-                and retail industries.
+                More than 20 years of experience building high quality software
+                for fin-tech and retail industries.
               </div>
             </div>
             <div className="row mt-4">
