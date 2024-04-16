@@ -1,20 +1,27 @@
 import * as React from "react";
+import { useSiteMetadata } from "../hooks/use-site-metadata";
 
 export const Landing: React.FC = () => {
+  const {
+    title: defaultTitle,
+    description: defaultDescription,
+    keywords,
+  } = useSiteMetadata();
+
   return (
     <>
       <section className="bg-white dark:bg-gray-900">
         <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div className="mr-auto place-self-center lg:col-span-7">
             <h1 className="max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">
-              Your Partner in AI-Driven Success
+              Empowering Your Business with AI-Driven Solutions
             </h1>
             <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-              We empower businesses to harness the transformative potential of
-              AI for efficiency, growth, and competitive advantage. Our
-              experienced team guides you through every stage of your AI
-              journey, from strategy to implementation, ensuring tailored
-              solutions that deliver measurable results.
+              We enable businesses to harness the transformative
+              potential of AI for enhanced efficiency, growth, and competitive
+              advantage. Our experienced team guides you through every stage of
+              your AI journey, from strategy to implementation, ensuring
+              tailored solutions that deliver measurable results.
             </p>
             <a
               href="#"

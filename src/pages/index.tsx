@@ -35,13 +35,17 @@ const IndexPage: React.FC<PageProps> = () => {
 export default IndexPage;
 
 export const Head: HeadFC = () => {
-  const { title: defaultTitle, description: defaultDescription } =
-    useSiteMetadata();
+  const {
+    title: defaultTitle,
+    description: defaultDescription,
+    keywords,
+  } = useSiteMetadata();
 
   return (
     <>
       <title>{defaultTitle}</title>
       <meta name="description" content={defaultDescription} />
+      <meta name="keywords" content={keywords} />
     </>
   );
 };

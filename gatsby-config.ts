@@ -2,10 +2,12 @@ import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `Mindly | Software Development Services`,
+    title: `Mindly: Empowering Your Business with AI-Driven Solutions`,
     siteUrl: `https://www.mindly.dev`,
     description:
-      "Full-stack software development. Business Analysis, Software Development, DevOps and IT Audit.",
+      "Mindly specializes in AI strategy consulting, custom AI software development, and AI integration services to transform your business operations and enhance efficiency.",
+    keywords:
+      "AI Consulting Services, AI Strategy Development, Custom AI Solutions, AI Integration Services, Machine Learning Consulting, AI for Business Automation, AI-Driven Data Analytics, Robotic Process Automation, Natural Language Processing, Predictive Analytics Services, AI Change Management, AI Implementation Support, AI Software Development, AI Business Solutions, AI Technology Partners",
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin
