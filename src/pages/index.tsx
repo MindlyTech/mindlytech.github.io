@@ -59,7 +59,7 @@ const IndexPage: React.FC<PageProps> = () => {
                 <span className="text-primary text-lg font-normal">
                   Partner with us to unlock the full value of AI and outpace the
                   competition.{" "}
-                  <span className="font-bold">Email us: <a href="mailto:ai@mindly.dev">ai@mindly.dev</a></span>
+                  <span className="font-bold">Email us: <a href="mailto:hello@mindly.dev">ai@mindly.dev</a></span>
                 </span>
               </div>
             </div>
