@@ -31,23 +31,22 @@ const IndexPage: React.FC<PageProps> = () => {
                 <div className="text-4xl ">
                   <div className="flex row">
                     <span>
-                      <div className="text-primary mr-2 font-bold">
-                        Software Development Services.
+                      <div className="text-primary font-sans mr-2 font-bold">
+                        Your Partner in AI-Driven Success
                       </div>
                     </span>
                   </div>
                 </div>
-                <div className="text-xl ">
-                  More than 20 years of experience building high quality
-                  software for fin-tech and retail industries.
-                </div>
-              </div>
-              <div className="row mt-4">
-                <div className="text-xl text-primary underline font-bold">
-                  Our services
-                </div>
-                <div className="text-xl font-semibold">
-                  Business Analysis, Software Development, DevOps and IT Audit
+                <div className="text-xl w-3/4 font-sans font-thin">
+                  We empower businesses to harness the transformative potential
+                  of AI for efficiency, growth, and competitive advantage. Our
+                  experienced team guides you through every stage of your AI
+                  journey, from strategy to implementation, ensuring tailored
+                  solutions that deliver measurable results.{" "}
+                  <span className="text-primary font-medium">
+                    Partner with Mindly to unlock the full value of AI and
+                    outpace the competition.
+                  </span>
                 </div>
               </div>
               <div className="row mt-4">

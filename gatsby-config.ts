@@ -44,7 +44,7 @@ const config: GatsbyConfig = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Inter\:400,500,600,700`, // weights you need
+          `Roboto\:100,200,300,400,500,600,700`, // weights you need
         ],
         display: "swap",
       },
