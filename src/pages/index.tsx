@@ -1,14 +1,23 @@
 import * as React from "react";
 import type { HeadFC, PageProps } from "gatsby";
 import { useSiteMetadata } from "../hooks/use-site-metadata";
+import { useState } from "react";
 
 const IndexPage: React.FC<PageProps> = () => {
+  const [isContactFormOpen, setIsContactFormOpen] = useState(false);
+
+  function contactUs(): void {
+    console.log("contact us");
+    setIsContactFormOpen(true);
+  }
+
   return (
     <>
       <main>
+        <div className="ml-2 mt-2 text-primary font-bold text-3xl">MINDLY</div>
         <div className="ml-0 flex items-center justify-left h-screen">
           <div className="flex justify-left place-items-center w-full">
-            <div className="w-full max-w-[300px]">
+            <div className="w-full max-w-[300px] hidden sm:block md:block">
               <svg
                 viewBox="0 0 533 876"
                 fill="none"
@@ -26,7 +35,8 @@ const IndexPage: React.FC<PageProps> = () => {
                 ></path>
               </svg>
             </div>
-            <div className="p-4 m-4 max-w-[700px]">
+
+            <div className="p-4 m-4 max-w-[600px]">
               <div className="row">
                 <div className="text-4xl ">
                   <div className="flex row">
@@ -46,13 +56,11 @@ const IndexPage: React.FC<PageProps> = () => {
                 </div>
               </div>
               <div className="row mt-4">
-                <span className="text-primary text-lg font-medium">
+                <span className="text-primary text-lg font-normal">
                   Partner with us to unlock the full value of AI and outpace the
-                  competition.
+                  competition.{" "}
+                  <span className="font-bold">Email us: <a href="mailto:ai@mindly.dev">ai@mindly.dev</a></span>
                 </span>
-                <button className="border p-2 mt-2 rounded border-primary text-primary font-semibold">
-                  Contact us today!
-                </button>
               </div>
             </div>
           </div>
