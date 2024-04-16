@@ -9,6 +9,7 @@ import { Testimonials } from "../components/testimonials";
 import { Customers } from "../components/customers";
 import { Projects } from "../components/projects";
 import { Contact } from "../components/contact";
+import { Pricing } from "../components/pricing";
 
 const IndexPage: React.FC<PageProps> = () => {
   const [isContactFormOpen, setIsContactFormOpen] = useState(false);
@@ -23,6 +24,7 @@ const IndexPage: React.FC<PageProps> = () => {
       <main>
         <Landing />
         <Services />
+        <Pricing />
         <Contact />
         <Footer />
       </main>
