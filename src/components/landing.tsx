@@ -17,14 +17,14 @@ export const Landing: React.FC = () => {
               Empowering Your Business with AI-Driven Solutions
             </h1>
             <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-              We enable businesses to harness the transformative
-              potential of AI for enhanced efficiency, growth, and competitive
-              advantage. Our experienced team guides you through every stage of
-              your AI journey, from strategy to implementation, ensuring
-              tailored solutions that deliver measurable results.
+              We enable businesses to harness the transformative potential of AI
+              for enhanced efficiency, growth, and competitive advantage. Our
+              experienced team guides you through every stage of your AI
+              journey, from strategy to implementation, ensuring tailored
+              solutions that deliver measurable results.
             </p>
             <a
-              href="#"
+              href="#contact"
               className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
             >
               Contact us
