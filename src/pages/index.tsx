@@ -43,7 +43,7 @@ export const Head: HeadFC = () => {
 
   return (
     <>
-      <title>{defaultTitle}</title>
+      <title>Mindly: {defaultTitle}</title>
       <meta name="description" content={defaultDescription} />
       <meta name="keywords" content={keywords} />
     </>

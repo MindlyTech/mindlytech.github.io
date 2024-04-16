@@ -2,7 +2,7 @@ import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `Mindly: Empowering Your Business with AI-Driven Solutions`,
+    title: `Empowering Your Business with AI-Driven Solutions`,
     siteUrl: `https://www.mindly.dev`,
     description:
       "Mindly specializes in AI strategy consulting, custom AI software development, and AI integration services to transform your business operations and enhance efficiency.",
@@ -21,6 +21,13 @@ const config: GatsbyConfig = {
         trackingIds: [
           "GTM-5D3VWP3", // Google Analytics / GA
         ],
+      },
+    },
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://www.mindly.dev",
+        policy: [{ userAgent: "*", allow: "/" }],
       },
     },
     //    "gatsby-plugin-google-gtag",
