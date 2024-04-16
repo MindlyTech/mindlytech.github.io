@@ -26,7 +26,7 @@ const IndexPage: React.FC<PageProps> = () => {
                 ></path>
               </svg>
             </div>
-            <div className="ml-4">
+            <div className="p-4 m-4 max-w-[700px]">
               <div className="row">
                 <div className="text-4xl ">
                   <div className="flex row">
@@ -37,27 +37,22 @@ const IndexPage: React.FC<PageProps> = () => {
                     </span>
                   </div>
                 </div>
-                <div className="text-xl w-3/4 font-sans font-thin">
+                <div className="text-xl font-sans font-thin text-justify">
                   We empower businesses to harness the transformative potential
                   of AI for efficiency, growth, and competitive advantage. Our
                   experienced team guides you through every stage of your AI
                   journey, from strategy to implementation, ensuring tailored
                   solutions that deliver measurable results.{" "}
-                  <span className="text-primary font-medium">
-                    Partner with Mindly to unlock the full value of AI and
-                    outpace the competition.
-                  </span>
                 </div>
               </div>
               <div className="row mt-4">
-                <div className="text-xl text-primary underline font-bold">
-                  Contact Us
-                </div>
-                <div className="text-xl font-semibold">
-                  <a href="mailto:contact@mindly.ee">
-                    Email: contact@mindly.dev
-                  </a>
-                </div>
+                <span className="text-primary text-lg font-medium">
+                  Partner with us to unlock the full value of AI and outpace the
+                  competition.
+                </span>
+                <button className="border p-2 mt-2 rounded border-primary text-primary font-semibold">
+                  Contact us today!
+                </button>
               </div>
             </div>
           </div>
