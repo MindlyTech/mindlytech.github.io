@@ -19,6 +19,7 @@
     "@tsparticles/engine": "^3.3.0",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.3.0",
+    "airtable": "^0.12.2",
     "autoprefixer": "^10.4.19",
     "flowbite": "^2.3.0",
     "flowbite-react": "^0.8.0",
